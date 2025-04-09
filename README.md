@@ -1,16 +1,33 @@
-# untitled
+# 🚀 Flutter GetX Clean Architecture App
 
-A new Flutter project.
+This is a modular Flutter application built using **GetX**, **Clean Architecture**, and **Dio**. It features login/logout functionality, API integration, reactive UI updates, and light/dark theme support.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 📱 Features
 
-A few resources to get you started if this is your first Flutter project:
+- 🔑 Login & Logout flow
+- 📡 Fetch data from API using Dio
+- ⚙️ Clean architecture (Domain → Data → Presentation)
+- 🧠 State management with GetX (`.obs`, `Obx`)
+- 🚀 Navigation with named routes
+- 💉 Dependency Injection via Bindings
+- 🎨 Light & Dark theme with system mode
+- 📦 Shared Preferences for session handling
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## ⚙️ Tech Stack
+
+- **Flutter** – UI Framework
+- **GetX** – State management, navigation, DI
+- **Dio** – HTTP client for API calls
+- **SharedPreferences** – Local storage
+
+
+**🧪 Mock API**
+Data is fetched from:
+https://mocki.io/v1/09573130-7d4e-418c-9281-5be793f76218
+You can replace this with your own API.
+
+
